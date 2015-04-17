@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PeoplesReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Members">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Member">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MemberGuid" type="xs:string" />
+                    <xs:element name="PercentCompleted" type="xs:integer " />
+                    <xs:element name="PercentOnTime" type="xs:integer " />
+                    <xs:element name="LengthInProgram" type="xs:integer " />
+                    <xs:element name="LengthInEachCyclePhase" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

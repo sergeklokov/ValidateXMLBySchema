@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PeoplesReport>
+  <Members>
+    <Member>
+      <MemberGuid>{50B6D70A-30DE-41A9-82C1-0CE5BAB71270}</MemberGuid>
+      <PercentCompleted>15</PercentCompleted>
+      <PercentOnTime>15</PercentOnTime>
+      <LengthInProgram>24</LengthInProgram>
+      <LengthInEachCyclePhase>24,15,5,2</LengthInEachCyclePhase>
+    </Member>
+    <Member>
+      <MemberGuid>{290D62AA-F9EF-41BA-8CB8-AFA2AD574332}</MemberGuid>
+      <PercentCompleted>45</PercentCompleted>
+      <PercentOnTime>65</PercentOnTime>
+      <LengthInProgram>40</LengthInProgram>
+      <LengthInEachCyclePhase>15,1,3,4</LengthInEachCyclePhase>
+    </Member>
+    <Member>
+      <MemberGuid>{2F9B017B-BDE2-4EB2-99B1-FFC3CE33BD28}</MemberGuid>
+      <PercentCompleted>75</PercentCompleted>
+      <PercentOnTime>65</PercentOnTime>
+      <LengthInProgram>48</LengthInProgram>
+      <LengthInEachCyclePhase>15,15,15,3</LengthInEachCyclePhase>
+    </Member>
+    <Member>
+      <MemberGuid>{EA424F0B-500C-456A-8DD5-07EBBCF2763F}</MemberGuid>
+      <PercentCompleted>85</PercentCompleted>
+      <PercentOnTime>90</PercentOnTime>
+      <LengthInProgram>52</LengthInProgram>
+      <LengthInEachCyclePhase>15,15,15,8</LengthInEachCyclePhase>
+    </Member>
+  </Members>
+</PeoplesReport>
